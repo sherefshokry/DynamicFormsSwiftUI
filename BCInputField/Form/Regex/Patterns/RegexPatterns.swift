@@ -1,8 +1,15 @@
 //
 //  RegexPatterns.swift
-//  BCInputField
+//  Combine Form Validation UIKit
 //
-//  Created by SherifShokry on 31/08/2021.
+//  Created by Tunde on 08/05/2021.
 //
+/**
+ * Patterns we will use to validate our content
+ */
 
-import Foundation
+enum RegexPatterns {
+    static let emailChars = ".*[@].*"
+    static let higherThanSixChars = "^.{6,}$"
+    static let name = "^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$"
+}

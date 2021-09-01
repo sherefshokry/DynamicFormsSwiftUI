@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+
+struct RegexFormItem  {
+    let pattern : String
+    let error : ValidationError 
+}

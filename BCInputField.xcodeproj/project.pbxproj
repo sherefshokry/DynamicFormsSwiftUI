@@ -13,6 +13,16 @@
 		5B8512A826DE43E4001FA4F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B8512A726DE43E4001FA4F4 /* Assets.xcassets */; };
 		5B8512AB26DE43E4001FA4F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B8512AA26DE43E4001FA4F4 /* Preview Assets.xcassets */; };
 		5B8512AE26DE43E4001FA4F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B8512AC26DE43E4001FA4F4 /* LaunchScreen.storyboard */; };
+		5B8512C026DE87DC001FA4F4 /* FormItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8512BF26DE87DC001FA4F4 /* FormItem.swift */; };
+		5B8512C326DE8C0E001FA4F4 /* FormContentBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8512C226DE8C0E001FA4F4 /* FormContentBuilder.swift */; };
+		5B8512C626DE8F49001FA4F4 /* TextFieldFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8512C526DE8F49001FA4F4 /* TextFieldFormView.swift */; };
+		5B8512C826DE912C001FA4F4 /* DateFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8512C726DE912C001FA4F4 /* DateFormView.swift */; };
+		5B8512CA26DE9408001FA4F4 /* ButtonFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8512C926DE9408001FA4F4 /* ButtonFormView.swift */; };
+		5B8512CE26DE9844001FA4F4 /* RegexPatterns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8512CD26DE9844001FA4F4 /* RegexPatterns.swift */; };
+		5B8512D326DE9B33001FA4F4 /* RegexFormItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8512D226DE9B33001FA4F4 /* RegexFormItem.swift */; };
+		5B8512D626DE9B9D001FA4F4 /* ValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8512D526DE9B9D001FA4F4 /* ValidationError.swift */; };
+		5B8512D926DE9C4A001FA4F4 /* ValidationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8512D826DE9C4A001FA4F4 /* ValidationManager.swift */; };
+		5B8512DC26DEAB07001FA4F4 /* FormState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8512DB26DEAB07001FA4F4 /* FormState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		5B8512AA26DE43E4001FA4F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5B8512AD26DE43E4001FA4F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B8512AF26DE43E4001FA4F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B8512BF26DE87DC001FA4F4 /* FormItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormItem.swift; sourceTree = "<group>"; };
+		5B8512C226DE8C0E001FA4F4 /* FormContentBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormContentBuilder.swift; sourceTree = "<group>"; };
+		5B8512C526DE8F49001FA4F4 /* TextFieldFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldFormView.swift; sourceTree = "<group>"; };
+		5B8512C726DE912C001FA4F4 /* DateFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormView.swift; sourceTree = "<group>"; };
+		5B8512C926DE9408001FA4F4 /* ButtonFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFormView.swift; sourceTree = "<group>"; };
+		5B8512CD26DE9844001FA4F4 /* RegexPatterns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegexPatterns.swift; sourceTree = "<group>"; };
+		5B8512D226DE9B33001FA4F4 /* RegexFormItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegexFormItem.swift; sourceTree = "<group>"; };
+		5B8512D526DE9B9D001FA4F4 /* ValidationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationError.swift; sourceTree = "<group>"; };
+		5B8512D826DE9C4A001FA4F4 /* ValidationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationManager.swift; sourceTree = "<group>"; };
+		5B8512DB26DEAB07001FA4F4 /* FormState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 		5B8512A026DE43DE001FA4F4 /* BCInputField */ = {
 			isa = PBXGroup;
 			children = (
+				5B8512BC26DE8777001FA4F4 /* Form */,
 				5B8512A126DE43DE001FA4F4 /* AppDelegate.swift */,
 				5B8512A326DE43DE001FA4F4 /* SceneDelegate.swift */,
 				5B8512A526DE43DE001FA4F4 /* ContentView.swift */,
@@ -73,6 +94,103 @@
 				5B8512AA26DE43E4001FA4F4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5B8512BC26DE8777001FA4F4 /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				5B8512DA26DEAAFD001FA4F4 /* Event */,
+				5B8512CB26DE97F2001FA4F4 /* Regex */,
+				5B8512C426DE8F3D001FA4F4 /* Views */,
+				5B8512C126DE8BE9001FA4F4 /* Builder */,
+				5B8512BD26DE87B1001FA4F4 /* Form */,
+			);
+			path = Form;
+			sourceTree = "<group>";
+		};
+		5B8512BD26DE87B1001FA4F4 /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				5B8512BE26DE87C5001FA4F4 /* Model */,
+			);
+			path = Form;
+			sourceTree = "<group>";
+		};
+		5B8512BE26DE87C5001FA4F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B8512BF26DE87DC001FA4F4 /* FormItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5B8512C126DE8BE9001FA4F4 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				5B8512C226DE8C0E001FA4F4 /* FormContentBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		5B8512C426DE8F3D001FA4F4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5B8512C526DE8F49001FA4F4 /* TextFieldFormView.swift */,
+				5B8512C726DE912C001FA4F4 /* DateFormView.swift */,
+				5B8512C926DE9408001FA4F4 /* ButtonFormView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5B8512CB26DE97F2001FA4F4 /* Regex */ = {
+			isa = PBXGroup;
+			children = (
+				5B8512D726DE9C37001FA4F4 /* Manager */,
+				5B8512D426DE9B90001FA4F4 /* Error */,
+				5B8512D126DE9B23001FA4F4 /* Model */,
+				5B8512CC26DE982C001FA4F4 /* Patterns */,
+			);
+			path = Regex;
+			sourceTree = "<group>";
+		};
+		5B8512CC26DE982C001FA4F4 /* Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				5B8512CD26DE9844001FA4F4 /* RegexPatterns.swift */,
+			);
+			path = Patterns;
+			sourceTree = "<group>";
+		};
+		5B8512D126DE9B23001FA4F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B8512D226DE9B33001FA4F4 /* RegexFormItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5B8512D426DE9B90001FA4F4 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				5B8512D526DE9B9D001FA4F4 /* ValidationError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		5B8512D726DE9C37001FA4F4 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				5B8512D826DE9C4A001FA4F4 /* ValidationManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		5B8512DA26DEAAFD001FA4F4 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				5B8512DB26DEAB07001FA4F4 /* FormState.swift */,
+			);
+			path = Event;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,9 +263,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B8512D326DE9B33001FA4F4 /* RegexFormItem.swift in Sources */,
+				5B8512CE26DE9844001FA4F4 /* RegexPatterns.swift in Sources */,
 				5B8512A226DE43DE001FA4F4 /* AppDelegate.swift in Sources */,
+				5B8512D626DE9B9D001FA4F4 /* ValidationError.swift in Sources */,
+				5B8512C626DE8F49001FA4F4 /* TextFieldFormView.swift in Sources */,
+				5B8512D926DE9C4A001FA4F4 /* ValidationManager.swift in Sources */,
 				5B8512A426DE43DE001FA4F4 /* SceneDelegate.swift in Sources */,
+				5B8512C326DE8C0E001FA4F4 /* FormContentBuilder.swift in Sources */,
+				5B8512DC26DEAB07001FA4F4 /* FormState.swift in Sources */,
+				5B8512CA26DE9408001FA4F4 /* ButtonFormView.swift in Sources */,
+				5B8512C026DE87DC001FA4F4 /* FormItem.swift in Sources */,
 				5B8512A626DE43DE001FA4F4 /* ContentView.swift in Sources */,
+				5B8512C826DE912C001FA4F4 /* DateFormView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +344,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +399,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -291,6 +419,7 @@
 				DEVELOPMENT_TEAM = 5RLD3B22VC;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = BCInputField/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +441,7 @@
 				DEVELOPMENT_TEAM = 5RLD3B22VC;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = BCInputField/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
